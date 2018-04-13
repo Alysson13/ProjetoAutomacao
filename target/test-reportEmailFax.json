@@ -1,0 +1,68 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: gloureirog@indracompany.com"
+      },
+      {
+        "line": 2,
+        "value": "# encoding: iso-8859-1"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Registro de tarjeta",
+        "description": "",
+        "id": "registro-de-tarjeta---website-banco-ripley;registro-de-tarjeta",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8537653864,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "CT01 - Pagina principal",
+            "match": {
+              "location": "CadastroCartaoTest.acessarPaginaCadastro()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53033022459,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "CT01 - Prints tela de tarjetas",
+            "match": {
+              "location": "CadastroCartaoTest.clicarTarjeta()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "line": 10,
+            "name": "@CT01"
+          }
+        ]
+      }
+    ],
+    "name": "Registro de Tarjeta - Website Banco Ripley",
+    "description": "\nYo como Analista de pruebas\nQuiero registrar una tarjeta",
+    "id": "registro-de-tarjeta---website-banco-ripley",
+    "keyword": "Feature",
+    "uri": "CadastroCartao.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@ProjetoBancoRipley"
+      }
+    ]
+  }
+]
